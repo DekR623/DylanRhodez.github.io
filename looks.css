@@ -1,0 +1,11 @@
+body { 
+background: #0f1117;
+color: white;
+font-family: TimesNewRoman;
+
+max-width: 900px;
+margin: auto;
+padding: 50px;
+
+line-height: 1.7;
+}
