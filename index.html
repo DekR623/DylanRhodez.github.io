@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <title>Hoaxy a Dezinformácie</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { margin: 0; padding: 0; background-color: #0f172a; font-family: 'Inter', sans-serif; }
+    .slide-container {
+      width: 1280px;
+      height: 720px;
+      margin: 0 auto;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- SLIDE 1: Title (Dark Ground) -->
+  <div class="slide-container" id="slide1" style="background:#0f172a; padding:64px 80px; display:flex; flex-direction:column; justify-content:center;">
+    <p style="font-family:'Space Grotesk', sans-serif; font-size:16px; font-weight:700; color:#38bdf8; text-transform:uppercase; letter-spacing:2px; margin:0 0 16px 0;">
+      Mediálna výchova & Kritické myslenie
+    </p>
+    <h1 style="font-family:'Space Grotesk', sans-serif; font-size:56px; font-weight:700; color:#f8fafc; margin:0 0 20px 0; line-height:1.15; max-width:850px;">
+      Hoaxy a Dezinformácie v Online Priestore
+    </h1>
+    <p style="font-size:20px; color:#94a3b8; margin:0 0 32px 0; max-width:650px;">
+      Ako rozpoznávať fiktívne správy, chrániť sa pred manipuláciou a overovať informačné zdroje.
+    </p>
+    <div style="width:56px; height:4px; background:#38bdf8;"></div>
+  </div>
+
+  <!-- SLIDE 2: Základné pojmy (Light Ground) -->
+  <div class="slide-container" id="slide2" style="background:#ffffff; padding:56px 80px; display:flex; flex-direction:column;">
+    <p style="font-family:'Space Grotesk', sans-serif; font-size:15px; font-weight:700; color:#0284c7; text-transform:uppercase; letter-spacing:1.5px; margin:0 0 12px 0;">
+      Terminológia
+    </p>
+    <h2 style="font-family:'Space Grotesk', sans-serif; font-size:36px; font-weight:700; color:#0f172a; margin:0 0 36px 0;">
+      Kľúčové kategórie nepravdivých správ
+    </h2>
+    <div style="display:flex; gap:28px; width:100%; align-items:center; flex-grow:1;">
+      <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; padding:32px; flex:1 1 0;">
+        <div style="width:44px; height:44px; background:#e0f2fe; border-radius:8px; display:flex; align-items:center; justify-content:center; margin:0 0 20px 0;">
+          <i class="fa-solid fa-triangle-exclamation" style="color:#0284c7; font-size:20px;"></i>
+        </div>
+        <h3 style="font-family:'Space Grotesk', sans-serif; font-size:22px; color:#0f172a; margin:0 0 10px 0;">Hoax</h3>
+        <p style="font-size:16px; color:#475569; line-height:1.45; margin:0;">
+          Klamlivá správa varovného alebo senzačného charakteru určená na rýchle masové zdieľanie.
+        </p>
+      </div>
+      <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; padding:32px; flex:1 1 0;">
+        <div style="width:44px; height:44px; background:#fef2f2; border-radius:8px; display:flex; align-items:center; justify-content:center; margin:0 0 20px 0;">
+          <i class="fa-solid fa-bullhorn" style="color:#ef4444; font-size:20px;"></i>
+        </div>
+        <h3 style="font-family:'Space Grotesk', sans-serif; font-size:22px; color:#0f172a; margin:0 0 10px 0;">Dezinformácia</h3>
+        <p style="font-size:16px; color:#475569; line-height:1.45; margin:0;">
+          Zámerne vytvorený klam určený na ovplyvňovanie verejnej mienky alebo poškodzovanie cieľov.
+        </p>
+      </div>
+      <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; padding:32px; flex:1 1 0;">
+        <div style="width:44px; height:44px; background:#f0fdf4; border-radius:8px; display:flex; align-items:center; justify-content:center; margin:0 0 20px 0;">
+          <i class="fa-solid fa-circle-info" style="color:#16a34a; font-size:20px;"></i>
+        </div>
+        <h3 style="font-family:'Space Grotesk', sans-serif; font-size:22px; color:#0f172a; margin:0 0 10px 0;">Misinformácia</h3>
+        <p style="font-size:16px; color:#475569; line-height:1.45; margin:0;">
+          Nepresný alebo mylný obsah neúmyselne šírený používateľmi, ktorí veria jeho pravdivosti.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 3: Varovné signály (Light Ground + Visual Split) -->
+  <div class="slide-container" id="slide3" style="background:#f8fafc; padding:56px 80px; display:flex; flex-direction:column;">
+    <p style="font-family:'Space Grotesk', sans-serif; font-size:15px; font-weight:700; color:#0284c7; text-transform:uppercase; letter-spacing:1.5px; margin:0 0 12px 0;">
+      Anatómia manipulácie
+    </p>
+    <h2 style="font-family:'Space Grotesk', sans-serif; font-size:36px; font-weight:700; color:#0f172a; margin:0 0 36px 0;">
+      Hlavné znaky dezinformačných správ
+    </h2>
+    <div style="display:flex; gap:40px; align-items:center; flex-grow:1;">
+      <div style="flex:1 1 0; display:flex; flex-direction:column; gap:20px;">
+        <div style="display:flex; gap:16px; align-items:flex-start;">
+          <div style="width:36px; height:36px; background:#e0f2fe; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+            <i class="fa-solid fa-bolt" style="color:#0284c7; font-size:15px;"></i>
+          </div>
+          <div>
+            <h4 style="font-size:18px; color:#0f172a; margin:0 0 4px 0;">Tlak na okamžité zdieľanie</h4>
+            <p style="font-size:15px; color:#64748b; margin:0;">Výzvy typu „Zdieľajte, kým to nezmažú“ nahrádzajú logické dôkazy.</p>
+          </div>
+        </div>
+        <div style="display:flex; gap:16px; align-items:flex-start;">
+          <div style="width:36px; height:36px; background:#e0f2fe; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+            <i class="fa-solid fa-user-slash" style="color:#0284c7; font-size:15px;"></i>
+          </div>
+          <div>
+            <h4 style="font-size:18px; color:#0f172a; margin:0 0 4px 0;">Absencia anonymného autora</h4>
+            <p style="font-size:15px; color:#64748b; margin:0;">Vágne citácie neuvedených odborníkov bez dohľadateľných zdrojov.</p>
+          </div>
+        </div>
+        <div style="display:flex; gap:16px; align-items:flex-start;">
+          <div style="width:36px; height:36px; background:#e0f2fe; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+            <i class="fa-solid fa-heart-pulse" style="color:#0284c7; font-size:15px;"></i>
+          </div>
+          <div>
+            <h4 style="font-size:18px; color:#0f172a; margin:0 0 4px 0;">Emocionálna provokácia</h4>
+            <p style="font-size:15px; color:#64748b; margin:0;">Správy cielene vyvolávajú hnev, strach alebo senzáciu.</p>
+          </div>
+        </div>
+      </div>
+      <div style="flex:1 1 0; height:340px; border-radius:12px; overflow:hidden;">
+        <img src="[attachment_1](attachment)" alt="Visual representation of social media disinformation" style="width:100%; height:100%; object-fit:cover;">
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 4: Štatistika (Light Ground - Big Number) -->
+  <div class="slide-container" id="slide4" style="background:#ffffff; padding:56px 80px; display:flex; flex-direction:column;">
+    <h2 style="font-family:'Space Grotesk', sans-serif; font-size:32px; font-weight:700; color:#0f172a; margin:0 0 24px 0;">
+      Dopad na verejnú mienku
+    </h2>
+    <div style="flex-grow:1; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;">
+      <p style="font-family:'Space Grotesk', sans-serif; font-size:100px; font-weight:700; color:#0284c7; margin:0; line-height:1;">
+        50%+
+      </p>
+      <p style="font-size:20px; color:#475569; margin:20px 0 0 0; max-width:640px; line-height:1.4;">
+        Podiel populácie podliehajúci vybraným konšpiračným teóriám podľa dlhodobých prieskumov zraniteľnosti.
+      </p>
+      <p style="font-size:14px; color:#94a3b8; margin:16px 0 0 0;">Zdroj: GLOBSEC Trends &amp; Sociologický ústav SAV</p>
+    </div>
+  </div>
+
+  <!-- SLIDE 5: Metodika verifikácie (Light Ground) -->
+  <div class="slide-container" id="slide5" style="background:#f8fafc; padding:56px 80px; display:flex; flex-direction:column;">
+    <p style="font-family:'Space Grotesk', sans-serif; font-size:15px; font-weight:700; color:#0284c7; text-transform:uppercase; letter-spacing:1.5px; margin:0 0 12px 0;">
+      Postup
+    </p>
+    <h2 style="font-family:'Space Grotesk', sans-serif; font-size:36px; font-weight:700; color:#0f172a; margin:0 0 36px 0;">
+      Postup pri overovaní informácií
+    </h2>
+    <div style="display:flex; gap:28px; align-items:center; flex-grow:1;">
+      <div style="flex:1 1 0; background:#ffffff; border-radius:12px; padding:32px; border:1px solid #e2e8f0;">
+        <p style="font-family:'Space Grotesk', sans-serif; font-size:28px; font-weight:700; color:#0284c7; margin:0 0 12px 0;">01</p>
+        <h3 style="font-size:18px; color:#0f172a; margin:0 0 8px 0;">Overenie autora</h3>
+        <p style="font-size:15px; color:#64748b; margin:0;">Identifikujte vydavateľa, doménu a odbornosť citovaných zdrojov.</p>
+      </div>
+      <div style="flex:1 1 0; background:#ffffff; border-radius:12px; padding:32px; border:1px solid #e2e8f0;">
+        <p style="font-family:'Space Grotesk', sans-serif; font-size:28px; font-weight:700; color:#0284c7; margin:0 0 12px 0;">02</p>
+        <h3 style="font-size:18px; color:#0f172a; margin:0 0 8px 0;">Krížová kontrola</h3>
+        <p style="font-size:15px; color:#64748b; margin:0;">Hľadajte rovnaké údaje v štandardných tlačových agentúrach.</p>
+      </div>
+      <div style="flex:1 1 0; background:#ffffff; border-radius:12px; padding:32px; border:1px solid #e2e8f0;">
+        <p style="font-family:'Space Grotesk', sans-serif; font-size:28px; font-weight:700; color:#0284c7; margin:0 0 12px 0;">03</p>
+        <h3 style="font-size:18px; color:#0f172a; margin:0 0 8px 0;">Reverzné vyhľadávanie</h3>
+        <p style="font-size:15px; color:#64748b; margin:0;">Verifikujte pôvod priložených fotografií cez obrazové vyhľadávače.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 6: Fact-checking zdroje (Table layout) -->
+  <div class="slide-container" id="slide6" style="background:#ffffff; padding:56px 80px; display:flex; flex-direction:column;">
+    <p style="font-family:'Space Grotesk', sans-serif; font-size:15px; font-weight:700; color:#0284c7; text-transform:uppercase; letter-spacing:1.5px; margin:0 0 12px 0;">
+      Prehľad zdrojov
+    </p>
+    <h2 style="font-family:'Space Grotesk', sans-serif; font-size:36px; font-weight:700; color:#0f172a; margin:0 0 32px 0;">
+      Overené fact-checkingové projekty na Slovensku
+    </h2>
+    <div style="flex-grow:1; display:flex; flex-direction:column; justify-content:center;">
+      <table style="width:100%; border-collapse:collapse; font-size:16px; text-align:left;">
+        <thead>
+          <tr style="border-bottom:2px solid #e2e8f0;">
+            <th style="padding:14px 16px; color:#0f172a; font-family:'Space Grotesk', sans-serif;">Projekt / Organizácia</th>
+            <th style="padding:14px 16px; color:#0f172a; font-family:'Space Grotesk', sans-serif;">Zamery &amp; Metodika</th>
+            <th style="padding:14px 16px; color:#0f172a; font-family:'Space Grotesk', sans-serif;">Doména</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:16px; color:#0f172a; font-weight:600;">Demagog.sk</td>
+            <td style="padding:16px; color:#475569;">Verifikácia faktických tvrdení politických aktérov</td>
+            <td style="padding:16px; color:#0284c7;">demagog.sk</td>
+          </tr>
+          <tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:16px; color:#0f172a; font-weight:600;">AFP Fakty Slovakia</td>
+            <td style="padding:16px; color:#475569;">Medzinárodný certifikovaný fact-checkingový tím</td>
+            <td style="padding:16px; color:#0284c7;">fakty.afp.com</td>
+          </tr>
+          <tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:16px; color:#0f172a; font-weight:600;">Konšpirátori.sk</td>
+            <td style="padding:16px; color:#475569;">Databáza webov s dezinformačným obsahom</td>
+            <td style="padding:16px; color:#0284c7;">konspiratori.sk</td>
+          </tr>
+          <tr>
+            <td style="padding:16px; color:#0f172a; font-weight:600;">Hoaxy a podvody – PZ SR</td>
+            <td style="padding:16px; color:#475569;">Oficiálne upozornenia Policajného zboru SR</td>
+            <td style="padding:16px; color:#0284c7;">minv.sk</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- SLIDE 7: Closing (Dark Ground) -->
+  <div class="slide-container" id="slide7" style="background:#0f172a; padding:64px 80px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;">
+    <p style="font-family:'Space Grotesk', sans-serif; font-size:15px; font-weight:700; color:#38bdf8; text-transform:uppercase; letter-spacing:2px; margin:0 0 16px 0;">
+      Záver
+    </p>
+    <h2 style="font-family:'Space Grotesk', sans-serif; font-size:48px; font-weight:700; color:#f8fafc; margin:0 0 20px 0;">
+      Kritický prístup chráni diskurz
+    </h2>
+    <p style="font-size:20px; color:#94a3b8; margin:0 0 32px 0; max-width:620px;">
+      Overovanie informácií pred ich ďalším zdieľaním je základným prvkom digitálnej bezpečnosti.
+    </p>
+    <div style="background:#1e293b; padding:18px 32px; border-radius:8px; border:1px solid #334155;">
+      <p style="font-size:16px; color:#cbd5e1; margin:0;">Priestor na otázky a diskusiu</p>
+    </div>
+  </div>
+
+</body>
+</html>
+```eof
